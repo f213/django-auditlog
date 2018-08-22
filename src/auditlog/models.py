@@ -14,7 +14,9 @@ from django.utils.encoding import python_2_unicode_compatible, smart_text
 from django.utils.six import iteritems, integer_types
 from django.utils.translation import ugettext_lazy as _
 
-from jsonfield.fields import JSONField
+#from jsonfield.fields import JSONField
+from jsonfield_compat.fields import JSONField
+
 from dateutil import parser
 from dateutil.tz import gettz
 
