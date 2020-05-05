@@ -9,4 +9,4 @@ Do not forget to add `USE_NATIVE_JSONFIELD = True` to your settings.py
 Author
 ======
 
-The fork is originaly created by [florencioq](https://github.com/florencioq/django-auditlog), i have just made it packagable.
+The original author of fork is [florencioq](https://github.com/florencioq/django-auditlog), i have adjusted it to support django 3.0 and removed some of python 2 code.
