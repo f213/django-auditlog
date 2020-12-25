@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'django-jsonfield==1.4.0',
         'python-dateutil>=2.8.0',
-        'django-jsonfield-compat@git+https://github.com/f213/django-jsonfield-compat.git@b1f1955077041fe9f14eb32be7bbcc6a7525e366',
+        'django-jsonfield-compat-with-django30@git+https://github.com/f213/django-jsonfield-compat.git@b1f1955077041fe9f14eb32be7bbcc6a7525e366',
     ],
     zip_safe=False,
     classifiers=[
